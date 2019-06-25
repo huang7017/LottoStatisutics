@@ -83,14 +83,14 @@ class Lotto:
     def getStatistics(self):
         dict = self.getLottoNumber()
         list = []
-        Statistics = np.zeros(49)
+        Statistics = np.zeros(50)
         for i in range(len(dict)):
             list.append(dict.get(str(i)))
         for i in range(len(list)):
             for j in range(7):
                 Statistics[int(list[i][j])]+=1
         for i in range(np.size(Statistics)):
-            print(str(i+1)+':',end = '')
+            print(str(i)+':',end = '')
             print(int(Statistics[i]),end = ' ')
         print()
 

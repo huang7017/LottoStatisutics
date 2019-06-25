@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lotto.iml" filepath="$PROJECT_DIR$/.idea/Lotto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leto.iml" filepath="$PROJECT_DIR$/.idea/leto.iml" />
     </modules>
   </component>
